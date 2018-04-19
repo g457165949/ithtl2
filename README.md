@@ -1,2 +1,2 @@
 # ithtl2
-本项目是完全基于SpringBoot2.0+Mybatise+SpringCloud采用多模块化结构
+本项目采用多模块化项目，基于SpringBoot2.0+Mybatise+SpringCloud Finchley.M9 + MBG自动生成。
