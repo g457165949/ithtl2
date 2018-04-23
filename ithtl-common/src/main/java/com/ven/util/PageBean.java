@@ -2,20 +2,14 @@ package com.ven.util;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import javax.persistence.Transient;
-
 public class PageBean {
 
-    @Transient
     private Integer pageNum = 1;
 
-    @Transient
     private Integer pageSize = 10;
 
-    @Transient
     private String orderBy;
 
-    @JsonIgnore
     public Integer getPageNum() {
         return pageNum;
     }
@@ -24,7 +18,6 @@ public class PageBean {
         this.pageNum = pageNum;
     }
 
-    @JsonIgnore
     public Integer getPageSize() {
         return pageSize;
     }
@@ -33,7 +26,6 @@ public class PageBean {
         this.pageSize = pageSize;
     }
 
-    @JsonIgnore
     public String getOrderBy() {
         return orderBy;
     }
