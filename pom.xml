@@ -29,11 +29,13 @@
 		<pagehelper-spring-boot.version>1.2.4</pagehelper-spring-boot.version>
 		<mysql.version>5.1.46</mysql.version>
 		<mapper.version>3.4.6</mapper.version>
+		<fastjson.version>1.2.46</fastjson.version>
 		<spring-cloud.version>Finchley.M9</spring-cloud.version>
 	</properties>
 
 	<modules>
 		<module>ithtl-system</module>
+		<module>ithtl-common</module>
 	</modules>
 
 	<dependencyManagement>

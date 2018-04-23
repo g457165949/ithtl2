@@ -1,8 +1,11 @@
 package com.ven.system.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
 
-@Table(name = "user")
+@Table(name = "sys_user")
+@JsonIgnoreProperties({ "password" })
 public class SysUser {
     @Id
     @GeneratedValue(generator = "JDBC")

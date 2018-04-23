@@ -2,7 +2,7 @@ package com.ven.system.entity;
 
 import javax.persistence.*;
 
-@Table(name = "role")
+@Table(name = "sys_role")
 public class SysRole {
     @Id
     @GeneratedValue(generator = "JDBC")
