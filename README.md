@@ -18,7 +18,7 @@
      * com.ven.system
          * controller
          * entity
-         * fservice
+         * fservice       (前端Feign服务接口)
          * mapper
          * service
   * ithtl-web            (前端业务接口服务)
