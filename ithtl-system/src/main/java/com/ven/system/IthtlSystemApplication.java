@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableEurekaClient
 @EnableFeignClients
 @SpringBootApplication
-@MapperScan(basePackages = {"com.ven.system.mapper"/*,"com.ven.system.feignInterface"*/})
+@MapperScan(basePackages = {"com.ven.system.mapper"})
 public class IthtlSystemApplication{
 
 	public static void main(String[] args) {
