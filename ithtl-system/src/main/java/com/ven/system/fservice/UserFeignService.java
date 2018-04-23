@@ -1,4 +1,4 @@
-package com.ven.system.feignInterface;
+package com.ven.system.fservice;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;

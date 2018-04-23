@@ -3,7 +3,7 @@ package com.ven.system.controller;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.ven.controller.ApiController;
-import com.ven.system.feignInterface.UserFeignService;
+import com.ven.system.fservice.UserFeignService;
 import com.ven.system.service.IUserService;
 import com.ven.util.RHelp;
 import com.ven.util.Result;
