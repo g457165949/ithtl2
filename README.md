@@ -8,20 +8,20 @@
 
 # 目录结构
 * ithtl2
-  * ithtl-cloud-eureka
-  * ithtl-common
+  * ithtl-cloud-eureka   (服务注册发现)
+  * ithtl-common         (公共工具)
      * com.ven
          * util
          * controller
          * config
-  * ithtl-system
+  * ithtl-system         (后台权限服务)
      * com.ven.system
          * controller
          * entity
          * fservice
          * mapper
          * service
-  * ithtl-web
+  * ithtl-web            (前端业务接口服务)
     * com.ven.user
         * controller
         * service
